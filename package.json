@@ -1,0 +1,16 @@
+{
+  "name": "z-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce website by Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i css/style.css -o build/tailwind.css"
+  },
+  "author": "Arif uz zaman",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
